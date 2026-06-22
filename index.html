@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cari Dapet</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="favicon.png">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Profile Section -->
+        <div class="profile-section">
+            <img src="caridapet_logo_icon.png" alt="Profile Picture" class="profile-pic">
+
+            <h1 class="logo-text"><span style="color: var(--flame);">Cari</span>Dapet</h1>
+
+            <p class="description">
+                Finds seru, pilihan terpercaya. <br>
+                Kami yang nyari, kamu yang dapet.
+            </p>
+
+            <div class="socials">
+                <a href="https://www.youtube.com/@wumbobee" target="_blank" class="social-btn">
+                    <i class="fa-brands fa-youtube" style="color: red;"></i> YouTube
+                </a>
+                <a href="https://www.tiktok.com/@caridapet" target="_blank" class="social-btn">
+                    <i class="fa-brands fa-tiktok"></i> TikTok
+                </a>
+                <a href="https://www.instagram.com/caridapet" target="_blank" class="social-btn">
+                    <i class="fa-brands fa-instagram" style="color: #E1306C;"></i> Instagram
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=61591306735268" target="_blank" class="social-btn">
+                    <i class="fa-brands fa-facebook" style="color: #1877F2;"></i> Facebook
+                </a>
+            </div>
+        </div>
+
+        <!-- Search -->
+        <span style="font-size: 13px; color: var(--stone);">Semua produk yang ada di video <i
+                class="fa-solid fa-arrow-down" style="margin-left: 4px;"></i></span>
+        <div class="search-section">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="searchInput" placeholder="Cari produk...">
+        </div>
+
+        <!-- Products -->
+        <div id="productsContainer" class="products-grid"></div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-main">
+            <div class="footer-logo">
+                <img src="caridapet_logo_icon.png" alt="CariDapet">
+                <span class="footer-logo-name"><span>Cari</span>Dapet</span>
+            </div>
+            <div class="footer-socials">
+                <a href="https://www.youtube.com/@wumbobee" target="_blank" class="footer-social-btn"><i
+                        class="fa-brands fa-youtube" style="color: red;"></i></a>
+                <a href="https://www.tiktok.com/@caridapet" target="_blank" class="footer-social-btn"><i
+                        class="fa-brands fa-tiktok"></i></a>
+                <a href="https://www.instagram.com/caridapet" target="_blank" class="footer-social-btn"><i
+                        class="fa-brands fa-instagram" style="color: #E1306C;"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61591306735268" target="_blank"
+                    class="footer-social-btn"><i class="fa-brands fa-facebook" style="color: #1877F2;"></i></a>
+            </div>
+        </div>
+        <hr class="footer-divider">
+        <p class="footer-copy">Copyright © 2026 CariDapet. All rights reserved.</p>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
