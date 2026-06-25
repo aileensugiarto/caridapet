@@ -47,4 +47,10 @@ const products = [
         image: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR5BFosobRF1-z7PXDPHgs62pnELMuDAfQbF4PgQg8H-co1LARUadBjpJ5xbqwUZSM_crWSK2YUn2g1X44Kaq0trNaxfnfgNZpd0n7O0oSl04TQCA-ngRZ5SepCIRzGwpZot7SU4Vu7QQ&usqp=CAc",
         link: "https://s.shopee.co.id/5L9kvXrGdH"
     },
+    {
+        id_product: 9,
+        name: "Duck Night Light & Phone Stand",
+        image: "https://m.media-amazon.com/images/I/517g1OFHK4L._AC_UF894,1000_QL80_.jpg",
+        link: "https://s.shopee.co.id/7KusjNouDx"
+    },
 ];
