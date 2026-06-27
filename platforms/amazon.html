@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YeeeHaul</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>YeeeHaul (Amazon)</title>
+    <link rel="stylesheet" href="../css/platforms.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" type="image/x-icon" href="images/Jessie.jpg" style="border-radius: 100px;">
+    <link rel="icon" type="image/x-icon" href="../images/Jessie.jpg" style="border-radius: 100px;">
 
 </head>
 
@@ -23,13 +23,14 @@
 
         <!-- Profile Section -->
         <div class="profile-section">
-            <img src="images/Jessie.jpg" alt="Profile Picture" class="profile-pic">
+            <img src="../images/Jessie.jpg" alt="Profile Picture" class="profile-pic">
 
             <h1 class="logo-text"><span style="color: #ff1900;">Yeee</span>Haul</h1>
+            <img class="amazon-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/960px-Amazon_logo.svg.png">
 
             <p class="description">
-                Welcome to <strong>YeeeHaul</strong> 🤠<br>
-                Find products in videos and shop through your preferred platform.
+                Welcome to YeeeHaul's <strong>Amazon</strong> Collection.<br>
+                The wild west of online finds. 🤠
             </p>
 
             <div class="socials">
@@ -48,47 +49,23 @@
             </div>
         </div>
 
-        <h2 class="shop-title">Choose Your Shopping Platform</h2>
-
-        <p class="shop-subtitle">
-            Both platforms contain the same featured products. <br>
-            Pick whichever works best for you.
-        </p>
-
-        <!-- Amazon Button -->
-        <div class="platform-card">
-            <a href="platforms/amazon.html">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/960px-Amazon_logo.svg.png"
-                    alt="Amazon">
-
-                <div class="platform-info">
-                    <h3>Amazon</h3>
-                    <p>Shop featured products on Amazon</p>
-                </div>
-
-                <i class="fa-solid fa-arrow-right"></i>
-            </a>
+        <!-- Search -->
+        <span style="font-size: 13px; color: var(--stone);">All products in videos <i
+                class="fa-solid fa-arrow-down" style="margin-left: 4px;"></i></span>
+        <div class="search-section">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" id="searchInput" placeholder="Search product...">
         </div>
 
-        <div class="platform-card">
-            <a href="platforms/shopee.html">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Shopee.svg/3840px-Shopee.svg.png"
-                    alt="Shopee">
+        <!-- Products -->
+        <div id="productsContainer" class="products-grid"></div>
 
-                <div class="platform-info">
-                    <h3>Shopee</h3>
-                    <p>Shop featured products on Shopee</p>
-                </div>
-
-                <i class="fa-solid fa-arrow-right"></i>
-            </a>
-        </div>
     </div>
 
     <footer class="footer">
         <div class="footer-main">
             <div class="footer-logo">
-                <img src="images/Jessie.jpg" alt="CariDapet">
+                <img src="../images/Jessie.jpg" alt="CariDapet">
                 <span class="footer-logo-name"><span>Yeee</span>Haul</span>
             </div>
             <div class="footer-socials">
@@ -105,6 +82,9 @@
         <hr class="footer-divider">
         <p class="footer-copy">Copyright © 2026 YeeeHaul. All rights reserved.</p>
     </footer>
+
+    <script src="../js/amazon-product.js"></script>
+    <script src="../js/script.js"></script>
 
 </body>
 

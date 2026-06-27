@@ -3,7 +3,11 @@ const searchInput = document.getElementById("searchInput");
 
 function displayProducts(items) {
     container.innerHTML = "";
-    const sorted = [...items].sort((a, b) => b.id_product - a.id_product);
+
+    const sorted = [...items].sort((a, b) =>
+        a.name.localeCompare(b.name)
+    );
+
     sorted.forEach(product => {
         container.innerHTML += `
             <div class="product-card">
@@ -13,7 +17,6 @@ function displayProducts(items) {
                         <h3>${product.name}</h3>
                     </div>
                 </a>
-                
             </div>
         `;
     });
