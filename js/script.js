@@ -9,7 +9,7 @@ function displayProducts(items) {
     sorted.forEach(product => {
         container.innerHTML += `
             <div class="product-card">
-                <a href="${product.link}" target="_blank">
+                <a href="product_detail.html?product=${product.slug}">
                     <img src="${product.image}" alt="${product.name}">
                     <div class="product-info">
                         <h3>${product.name}</h3>

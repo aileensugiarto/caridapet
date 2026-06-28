@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YeeeHaul (Shopee)</title>
-    <link rel="stylesheet" href="../css/platforms.css">
+    <title>YeeeHaul</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap"
@@ -13,26 +12,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="icon" type="image/x-icon" href="../images/Jessie.jpg" style="border-radius: 100px;">
-
+    <link rel="icon" type="image/x-icon" href="images/Jessie.jpg" style="border-radius: 100px;">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
+    <a href="index.html" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i> All Products
+    </a>
     <div class="container">
 
-        <!-- Profile Section -->
+        <!-- SAME PROFILE SECTION -->
         <div class="profile-section">
-            <img src="../images/Jessie.jpg" alt="Profile Picture" class="profile-pic">
+            <img src="images/Jessie.jpg" alt="Profile Picture" class="profile-pic">
 
             <h1 class="logo-text"><span style="color: #ff1900;">Yeee</span>Haul</h1>
-            <img class="shopee-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Shopee.svg/3840px-Shopee.svg.png" alt="">
 
             <p class="description">
-                Welcome to YeeeHaul's <strong>Shopee</strong> Collection.<br>
-                The wild west of online finds. 🤠
+                The best online finds, curated just for you. <br>
+                Shop them on Amazon & Shopee. 🛒
             </p>
-            
 
             <div class="socials">
                 <a href="https://www.youtube.com/@wumbobee" target="_blank" class="social-btn">
@@ -48,26 +48,56 @@
                     <i class="fa-brands fa-facebook" style="color: #1877F2;"></i> Facebook
                 </a>
             </div>
-            
         </div>
 
-        <!-- Search -->
-        <span style="font-size: 13px; color: var(--stone);">All products in videos <i
-                class="fa-solid fa-arrow-down" style="margin-left: 4px;"></i></span>
-        <div class="search-section">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" id="searchInput" placeholder="Search product...">
-        </div>
+        <div class="product-detail">
 
-        <!-- Products -->
-        <div id="productsContainer" class="products-grid"></div>
+            <div class="product-img-container">
+                <img id="productImage" class="product-detail-image" src="" alt="">
+            </div>
+
+            <div style="display:flex; flex-direction:column; align-items:center; gap:8px; width:100%;">
+                <h2 class="product-detail-name" id="productName"></h2>
+                <p class="product-detail-desc" id="productDescription"></p>
+            </div>
+
+            <div class="buy-buttons">
+                <!-- Amazon BUTTON -->
+                <a id="amazonBtn" class="buy-btn" target="_blank">
+                    <div class="buy-btn-icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/960px-Amazon_logo.svg.png"
+                            alt="Amazon">
+                    </div>
+                    <div class="buy-btn-text">
+                        <span class="buy-btn-title">Amazon</span>
+                        <span class="buy-btn-subtitle">Shop product on Amazon</span>
+                    </div>
+                    <i class="fa-solid fa-arrow-right buy-btn-arrow"></i>
+                </a>
+
+                <!-- Shopee BUTTON -->
+                <a id="shopeeBtn" class="buy-btn" target="_blank">
+                    <div class="buy-btn-icon">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Shopee.svg" alt="Shopee">
+                    </div>
+                    <div class="buy-btn-text">
+                        <span class="buy-btn-title">Shopee</span>
+                        <span class="buy-btn-subtitle">Shop product on Shopee</span>
+                    </div>
+                    <i class="fa-solid fa-arrow-right buy-btn-arrow"></i>
+                </a>
+            </div>
+
+        </div>
 
     </div>
+
+
 
     <footer class="footer">
         <div class="footer-main">
             <div class="footer-logo">
-                <img src="../images/Jessie.jpg" alt="CariDapet">
+                <img src="images/Jessie.jpg" alt="CariDapet">
                 <span class="footer-logo-name"><span>Yeee</span>Haul</span>
             </div>
             <div class="footer-socials">
@@ -85,8 +115,8 @@
         <p class="footer-copy">Copyright © 2026 YeeeHaul. All rights reserved.</p>
     </footer>
 
-    <script src="../js/shopee-products.js"></script>
-    <script src="../js/script.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/product_detail.js"></script>
 
 </body>
 
