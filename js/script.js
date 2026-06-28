@@ -4,9 +4,7 @@ const searchInput = document.getElementById("searchInput");
 function displayProducts(items) {
     container.innerHTML = "";
 
-    const sorted = [...items].sort((a, b) =>
-        a.name.localeCompare(b.name)
-    );
+    const sorted = [...items].reverse();
 
     sorted.forEach(product => {
         container.innerHTML += `
