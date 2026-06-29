@@ -36,7 +36,7 @@ const products = [
         name: "Shiba Wall Protector",
         description: "Cute soft silicone wall protector that absorbs door impacts and helps prevent wall damage.",
         image: "https://m.media-amazon.com/images/I/71UssfHmtHL._AC_UF894,1000_QL80_.jpg",
-        amazon: "https://amzn.to/442rfAs",
+        amazon: "https://amzn.to/4uVYal7",
         shopee: "https://s.shopee.co.id/W4epZ1ECk"
     },
 ];
