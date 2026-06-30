@@ -39,4 +39,12 @@ const products = [
         amazon: "https://amzn.to/4uVYal7",
         shopee: "https://s.shopee.co.id/W4epZ1ECk"
     },
+    {
+        slug: "finger-chopsticks",
+        name: "Finger Chopsticks",
+        description: "Fun finger chopsticks that let you snack while gaming, working, or studying without getting your hands messy.",
+        image: "https://m.media-amazon.com/images/I/71shBlCiu9L.jpg",
+        amazon: "https://amzn.to/4voeOKJ",
+        shopee: "https://s.shopee.co.id/70IA8CLfzD"
+    },
 ];
