@@ -47,4 +47,12 @@ const products = [
         amazon: "https://amzn.to/4voeOKJ",
         shopee: "https://s.shopee.co.id/70IA8CLfzD"
     },
+    {
+        slug: "flower-humidifier",
+        name: "Flower Humidifier",
+        description: "A compact flower humidifier with a gentle mist and soft night light for a cozy atmosphere.",
+        image: "https://m.media-amazon.com/images/I/21IU-l5b+0L._SS200_.jpg",
+        amazon: "https://amzn.to/3QvkNPt",
+        shopee: "https://s.shopee.co.id/AKYdnmu8X9"
+    },
 ];
