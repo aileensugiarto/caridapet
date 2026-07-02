@@ -55,4 +55,12 @@ const products = [
         amazon: "https://amzn.to/3QvkNPt",
         shopee: "https://s.shopee.co.id/AKYdnmu8X9"
     },
+    {
+        slug: "carry-handle",
+        name: "Carry Handle",
+        description: "Carry heavy items more comfortably with this durable carry handle that reduces hand strain and makes every trip easier.",
+        image: "https://qvc.scene7.com/is/image/QVC/v/67/v57067.002",
+        amazon: "https://amzn.to/3QR2mVu",
+        shopee: "https://s.shopee.co.id/4Ay201qndX"
+    },
 ];
