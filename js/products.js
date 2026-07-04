@@ -63,4 +63,12 @@ const products = [
         amazon: "https://amzn.to/3QR2mVu",
         shopee: "https://s.shopee.co.id/4Ay201qndX"
     },
+    {
+        slug: "soda-can-lids-with-straw",
+        name: "Soda Can Lids with Straw",
+        description: "A reusable soda can lid with a built-in straw that helps keep your drink fresh and prevents spills.",
+        image: "https://m.media-amazon.com/images/I/817YKulNf+L.jpg",
+        amazon: "https://amzn.to/4eWd9Wd",
+        shopee: "https://s.shopee.co.id/5fmsjzYUey"
+    },
 ];
